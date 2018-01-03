@@ -1,0 +1,20 @@
+clean: true
+author: Joshua Emmons
+author_url: https://uptake.com
+github_url: https://github.com/UptakeMobile/uptake-ui-ios
+module: UptakeUI
+root_url: https://mobile-toolkit-docs.services.common.int.uptake.com/docs/uptake-ui-ios/
+
+custom_categories:
+  - name: View Controllers
+    children:
+    - EmbeddedTabViewController
+    - SegmentedTabViewController
+    - HideBarNavigationController
+  - name: Helpers
+    children:
+    - KeyboardAvoidanceHelper
+    - AppearanceHelper
+  - name: Mixins
+    children:
+    - Busy
